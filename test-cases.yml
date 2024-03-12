@@ -6,7 +6,7 @@
   prerequisites: |
     Окрыта страница регистрации
   test-data: |
-    Nickname = Angela Email = test12-hexlet@yandex.ru Password = Parol-ex-hexlet12
+    Nickname = Angela Email = test12-hexlet@yandex.ru Password = Parol-ex-hexlet1
   steps:
     - Вводим Nickname
     - Вводим Email
@@ -23,7 +23,7 @@
   prerequisites:
     Открыта страница логина
   test-data: |
-    Nickname = Angela Email = test12-hexletyandexcom Password = Parol-ex-hexlet12
+    Nickname = Angela Email = test12-hexletyandexcom Password = Parol-ex-hexlet1
   steps:
     - Вводим Nickname
     - Вводим Email
@@ -40,7 +40,7 @@
   prerequisites:
     Открыта страница регистрации
   test-data: |
-    Nickname = Angela Email = test12-hexlet@yandex.ru Password = Parol-ex-hexlet12
+    Nickname = Angela Email = test12-hexlet@yandex.ru Password = Parol-ex-hexlet1
   steps:
     -  Вводим Nickname
     -  Вводим Email
@@ -204,7 +204,7 @@
   prerequisites:
     Открыта страница логина
   test-data: |
-    Nickname = Angela Email = test12-hexlet@yandex.ru Password = Parol-ex-hexlet12
+    Nickname = Angela Email = test12-hexlet@yandex.ru Password = Parol-ex-hexlet1
   steps:
     - Вводим Nickname
     - Вводим Email
