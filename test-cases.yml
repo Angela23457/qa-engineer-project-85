@@ -244,7 +244,7 @@
     Пользователь авторизован
     Открыта главная страница сайта 
   test-data: |
-    Параметры игры: level = 1, game type = with a bot, time control = 8 min, chose task = random task
+    Параметры игры: level = 1, game type = with a bot, time control = 8 min, chose task = random task, tags = match
   steps:
    - Нажать кнопку "create a game"
    - В графе Level выбрать первое значение
@@ -279,7 +279,7 @@
   prerequisites: |
    Пользователь авторизован и открыта главная страница сайта
   test-data: |
-   no date 
+   Параметры игры: level = 1, game type = with other users, time control = 15 min, chose task = random task, tags = match
   steps:
    - Нажать кнопку "create a game"
    - В графе Level выбрать первое значение
@@ -298,13 +298,13 @@
   prerequisites: |
     Пользователь авторизован и открыта главная страница сайта
   test-data: |
-   no date 
+   Параметры игры: level = 1, game type = with a bot, time control = 8 min, chose task = random task, tags = match
   steps:
    - Нажать кнопку "create a game"
    - В графе Level выбрать первое значение
    - В графе Game Type выбрать With a bot
    - В графе Time control установить значение 8 min
-   - В графе Choose task by name or tags выбрать rest
+   - В графе Choose task by name or tags выбрать random task
    - В графе Tags выбрать match 
    - Нажать кнопку create battle
   expected-result: |
